@@ -19,57 +19,56 @@ function Footer() {
               </a>
             </div>
           </div>
-          <div class="col-md order-md-2 hotels-list-block">
+          <div className="col-md order-md-2 hotels-list-block">
             <Swiper
               spaceBetween={40}
               slidesPerView={4.99}
-              onSwiper={(swiper) => console.log(swiper)}
             >
               <SwiperSlide className="mr-7 w-72">
-                <h4 class="hotels-block-title">ASTERIA BODRUM RESORT</h4>
+                <h4 className="hotels-block-title">ASTERIA BODRUM RESORT</h4>
                 <Figure>
                   <Image className="rounded" src="./images/bodrum.jpg"></Image>
                   <a href="/">
-                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <i className="fa-solid fa-circle-chevron-right"></i>
                   </a>
                 </Figure>
               </SwiperSlide>
               <SwiperSlide>
-                <h4 class="hotels-block-title">ASTERIA KEMER RESORT</h4>
+                <h4 className="hotels-block-title">ASTERIA KEMER RESORT</h4>
                 <Figure>
                   <Image className="rounded" src="./images/kemer.jpg"></Image>
                   <a href="/">
-                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <i className="fa-solid fa-circle-chevron-right"></i>
                   </a>
                 </Figure>
               </SwiperSlide>
               <SwiperSlide>
-                <h4 class="hotels-block-title">Asteria Kremlin Palace</h4>
+                <h4 className="hotels-block-title">Asteria Kremlin Palace</h4>
                 <Figure>
                   <Image className="rounded" src="./images/kremlin.jpg"></Image>
                   <a href="/">
-                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <i className="fa-solid fa-circle-chevron-right"></i>
                   </a>
                 </Figure>
               </SwiperSlide>
               <SwiperSlide>
-                <h4 class="hotels-block-title">ASTERIA ZEUS DİDİM</h4>
+                <h4 className="hotels-block-title">ASTERIA ZEUS DİDİM</h4>
                 <Figure>
                   <Image className="rounded" src="./images/didim.jpg"></Image>
                   <a href="/">
-                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <i className="fa-solid fa-circle-chevron-right"></i>
                   </a>
                 </Figure>
               </SwiperSlide>
               <SwiperSlide className="last">
-                <h4 class="hotels-block-title">ASTERIA VENUS DİDİM</h4>
+                <h4 className="hotels-block-title">ASTERIA VENUS DİDİM</h4>
                 <Figure>
                   <Image
                     className="rounded"
                     src="./images/venus-didim.jpg"
                   ></Image>
                   <a href="/">
-                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <i className="fa-solid fa-circle-chevron-right"></i>
                   </a>
                 </Figure>
               </SwiperSlide>
@@ -79,88 +78,88 @@ function Footer() {
             <div className="footer-pages">
               <ul className="footer-first">
                 <li>
-                  <a type="button" class="footer-menu-link-active" href="/">
+                  <a type="button" className="footer-menu-link-active" href="/">
                     HOMEPAGE
                   </a>
                 </li>
                 <li>
-                  <a type="button" class="footer-menu-link" href="/">
+                  <a type="button" className="footer-menu-link" href="/">
                     RESTAURANTS
                   </a>
                 </li>
                 <li>
-                  <a type="button" class="footer-menu-link" href="/">
+                  <a type="button" className="footer-menu-link" href="/">
                     SPA & WELLNESS
                   </a>
                 </li>
                 <li>
-                  <a type="button" class="footer-menu-link" href="/">
+                  <a type="button" className="footer-menu-link" href="/">
                     CONFERENCE
                   </a>
                 </li>
                 <li>
-                  <a type="button" class="footer-menu-link" href="/">
+                  <a type="button" className="footer-menu-link" href="/">
                     MARRIAGE & HONEYMOON
                   </a>
                 </li>
               </ul>
               <ul className="footer-first">
                 <li>
-                  <a type="button" class="footer-menu-link" href="/">
+                  <a type="button" className="footer-menu-link" href="/">
                     ACCOMMODATION
                   </a>
                 </li>
                 <li>
-                  <a type="button" class="footer-menu-link" href="/">
+                  <a type="button" className="footer-menu-link" href="/">
                     ACTIVITES
                   </a>
                 </li>
                 <li>
-                  <a type="button" class="footer-menu-link" href="/">
+                  <a type="button" className="footer-menu-link" href="/">
                     ASTERIA KIDS CLUB
                   </a>
                 </li>
                 <li>
-                  <a type="button" class="footer-menu-link" href="/">
+                  <a type="button" className="footer-menu-link" href="/">
                     SPORT
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-12 order-md-4 col-xl-auto">
+          <div className="col-12 order-md-4 col-xl-auto">
             <ul className="footer-first">
               <li>
-                <a type="button" class="footer-menu-link" href="/">
+                <a type="button" className="footer-menu-link" href="/">
                   FACT SHEET
                 </a>
               </li>
               <li>
-                <a type="button" class="footer-menu-link-active" href="/">
+                <a type="button" className="footer-menu-link-active" href="/">
                   MULTIMEDIA
                 </a>
               </li>
               <li>
-                <a type="button" class="footer-menu-link" href="/">
+                <a type="button" className="footer-menu-link" href="/">
                   PROTECTION OF PERSONAL DATA
                 </a>
               </li>
             </ul>
             <ul className="footer-first">
               <li>
-                <a type="button" class="footer-menu-link" href="/">
+                <a type="button" className="footer-menu-link" href="/">
                   AWARDS
                 </a>
               </li>
               <li>
-                <a type="button" class="footer-menu-link" href="/">
+                <a type="button" className="footer-menu-link" href="/">
                   CONTACT
                 </a>
               </li>
             </ul>
           </div>
-          <div class="col-xl-auto col-md order-md-5 d-flex align-items-center ms-xl-auto ps-xl-0">
-            <p class="copyright">© 2018 All Rights Reserved.</p>
+          <div className="col-xl-auto col-md order-md-5 d-flex align-items-center ms-xl-auto ps-xl-0">
+            <p className="copyright">© 2018 All Rights Reserved.</p>
           </div>
         </div>
       </div>

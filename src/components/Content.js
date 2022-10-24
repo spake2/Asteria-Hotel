@@ -3,7 +3,7 @@ import { Figure, Nav, Image, Container, Row, Col } from "react-bootstrap";
 
 function Content() {
   return (
-    <div class="row-container mt-2">
+    <div className="row-container mt-2">
       <Figure>
         <Image
           className="first-image"
@@ -12,9 +12,9 @@ function Content() {
           alt="logo"
         />
       </Figure>
-      <div class="container pt-5">
-        <div class="row container-main">
-          <div class="col-7">
+      <div className="container pt-5">
+        <div className="row container-main">
+          <div className="col-7">
             <h1 className="text-start">ASTERIA KREMLIN PALACE</h1>
             <h3 className="text-start">
               Travel in time with Asteria Kremlin Palace
@@ -31,7 +31,7 @@ function Content() {
               relaxing atmosphere
             </p>
           </div>
-          <div class="col-3">
+          <div className="col-3">
             <Figure>
               <Image className="rounded" src="/images/second.jpg"></Image>
             </Figure>
@@ -54,7 +54,7 @@ function Content() {
               <Nav.Link href="#DETAIL">
                 <span className="first inset-6">ACTIVITIES</span>
                 <span className="second">Please review in detail.</span>
-                <i class="fa-regular fa-circle-right"></i>
+                <i className="fa-regular fa-circle-right"></i>
               </Nav.Link>
             </Figure>
           </Col>

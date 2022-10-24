@@ -5,21 +5,23 @@ import "../styles/Main.scss"
 
 function Header() {
   return (
-    <section class="top-nav">
+    <section className="top-nav">
     <div className='container-header'>
       <a className='header-bar-logo' href='/'>
           <Image src='/images/Asteria-header.svg' width="100px" height="100px" className='rounded-top' alt='logo' />
       </a>
     </div>
     <input id="menu-toggle" type="checkbox" />
-    <label class='menu-button-container' for="menu-toggle">
-    <div class='menu-button'></div>
+    <label className='menu-button-container' htmlFor="menu-toggle">
+    <div className='menu-button'></div>
   </label>
-    <ul class="menu">
-      <li>EN</li>
-      <i class="fa-solid fa-chevron-down"></i>
-      <li>OUR HOTELS</li>
-      <i class="fa-solid fa-chevron-down"></i>
+    <ul className="menu">
+      <li>EN
+      <i className="fa-solid fa-chevron-down"></i>
+      </li>
+      <li>OUR HOTELS
+      <i className="fa-solid fa-chevron-down"></i>
+      </li>
       <div className='down-icon'>
       </div>
       <li className='hotels-li'>ACCOMMODATION </li>
