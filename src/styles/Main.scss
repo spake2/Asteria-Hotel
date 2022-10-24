@@ -562,26 +562,14 @@ height: 100%;
 
 footer .swiper-slide a i {
 position: absolute;
-right: 0.25rem;
+margin: 0;
+right: 0;
 bottom: 0;
--webkit-transform: translateY(50%);
--ms-transform: translateY(50%);
-    transform: translateY(50%);
-width: 2.5rem;
-height: 4.5rem;
 }
 
 footer .swiper-slide a i::before {
-position: absolute;
-left: 30px;
-top: 0px;
 color: #000;
 font-size: 40px;
-right: 0;
-bottom: 0;
-background-size: contain;
-background-repeat: no-repeat;
-background-position: 50%;
 }
 
 footer .footer-pages {
