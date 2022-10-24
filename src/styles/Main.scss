@@ -103,9 +103,9 @@ span.second {
 i.fa-solid {
 position: relative;
 font-style: normal;
-margin-right: 30px;
-line-height: 3.5em;
-font-size: 0.5rem;
+margin-right: 20px;
+margin-left: 20px;
+font-size: 0.7rem;
 display: inline-block;
 vertical-align: middle !important;
 color: #585858;
@@ -626,8 +626,8 @@ position: relative;
 font-weight: 700;
 padding-bottom: 2px;
 color: #084298;
--webkit-text-decoration: underline #ffd37d;
-        text-decoration: underline #ffd37d;
+text-decoration: underline #ffd37d !important;
+      -webkit-text-decoration: underline #ffd37d !important;
 }
 
 * {
